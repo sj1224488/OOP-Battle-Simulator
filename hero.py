@@ -6,7 +6,7 @@ class Hero:
     def __init__(self, name,hero_class):
         self.name = name
         self.health = 130
-        self.attack_power = 10
+        self.attack_power = 20
         self.hero_class = hero_class
 
     def attack(self):
