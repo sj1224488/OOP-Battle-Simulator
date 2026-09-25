@@ -6,7 +6,7 @@ class Goblin(Enemy):
     """A completed character class students can examine as an OOP example."""
 
     def __init__(self, name):
-        super().__init(name, 100, 7)
+        super().__init__(name, 100, 7)
         self.gold = 0
 
     def stealGold(self, hero):
